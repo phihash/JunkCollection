@@ -39,6 +39,7 @@ button{
   border: none;
   width: 28%;
   transition: 0.6s;
+  cursor: pointer;
 }
 
 .tab-btn:hover{
