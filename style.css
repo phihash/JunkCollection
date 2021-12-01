@@ -11,9 +11,23 @@ body{
   box-sizing: border-box;
 }
 
+.header{
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+@media(min-width:672px) {
+  .header{
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+}
+
 h1{
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 1.6rem;
+  font-family: 'Yellowtail', cursive;
+  
 }
 
 .nav-area{
@@ -52,19 +66,42 @@ button{
   justify-content: space-around;
 }
 
+@media(min-width:672px) {
+  .tab-area{
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .panel-area{
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .tab-panel{
+    max-width: 70%;
+  }
+  .contents{
+    max-width: 90%;
+  }
+}
+
+
 .panel-area{
   margin-top: 2rem;
 }
 
 .tab-panel{
   display: none;
+  margin-left: 0.8rem;
 }
 
 h2{
-  margin-left: 2rem;
-  padding-left: 1rem;
-  border-left: 0.4rem solid blanchedalmond;
+  
+  padding-left: 0.6rem;
+  border-left: 0.3rem solid blanchedalmond;
+  margin-bottom: 0.6rem;
 }
+
+
+
 
 
 .active{
